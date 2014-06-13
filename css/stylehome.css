@@ -1,7 +1,7 @@
 
 html{
 	background-color: #7DB4B5;
-	padding: 15px 40px 15px 40px;
+	padding: 30px 40px 30px 40px;
 }
 
 body{
@@ -61,7 +61,7 @@ li a:hover {
 	text-align: center;
 	color: white;
 	font-size: 40px; 
-	padding-top: 100px; 
+	padding-top: 45px; 
 	background-image: url("/assets/heroimage.png");
 	background-position: center center; 
 	background-size: 100% auto; 
@@ -72,13 +72,13 @@ li a:hover {
 	font-family: serif;
 }
 
+.hero-name1 {
+	font-style: italic;
+}
+
 .about-me{
 	text-align: center;
 	padding: 50px 0px 50px 0px;
-}
-
-.hero-name1{
-	font-style: italic;
 }
 
 .about-me-image{
