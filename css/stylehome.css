@@ -1,0 +1,99 @@
+
+html{
+	background-color: #FFC373;
+	padding: 15px 15px 15px 15px;
+}
+
+body{
+	background-color: #FFAD40;
+}
+
+
+.main-nav {
+	height: 2.3em;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+ul{
+	height: 2em;
+	width: 100%;
+}
+
+li a {
+	display: block;
+	line-height: 2em;
+	padding: 0 1em;
+	color: white;
+	text-decoration: none;
+}
+li a:hover {
+	background:red;
+	height: 2em;
+	padding-top: .3em;
+	position: relative;
+	top: -.3em;
+	border-radius:.3em .3em 0 0;
+}
+.current, a:hover.current{
+	background: green;
+	color: yellow;
+	padding-top: .3em;
+	position: relative;
+	top: -.3em;
+	border-radius:.3em .3em 0 0;
+	border-bottom: .3em solid green;
+	cursor:default;
+}
+
+.hero-container {
+	text-align: center;
+	color: white;
+	font-size: 40px; 
+	padding-top: 100px; 
+	background-image: url("/assets/heroimage.png");
+	background-position: center center; 
+	background-size: 100% auto; 
+	height: 300px;
+	width: 100%;
+	background-repeat: no-repeat;
+	padding-bottom: 100px; 
+}
+
+.about-me{
+	text-align: center;
+	padding-top: 50px;
+}
+
+.hero-name1{
+	font-style: italic;
+}
+
+.about-me-image{
+	padding-left: 50px; 
+	margin-top: 5px;
+	margin-right: 5px;
+	display: inline-block;
+}
+
+.about-me-image img {
+	border-radius: 100px;
+}
+
+.about-me-describe {
+	text-align: center; 
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.general-text {
+	width: 300px;
+	text-align: center;
+}
